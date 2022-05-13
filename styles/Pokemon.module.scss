@@ -1,0 +1,151 @@
+.pokemonDetailsContainer {
+  max-width: 300px;
+  margin: 0 auto;
+  color: #333;
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .pokemonName {
+    background: #333;
+    padding: .3rem;
+    text-align: center;
+
+    h1 {
+      color: #fff;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+    }
+  }
+
+  figure {
+    padding-top: 1.25rem;
+    text-align: center;
+
+    img {
+      display: inline-block;
+    }
+  }
+
+  .pokemonId {
+    padding: 1rem 0;
+    text-align: center;
+
+    p {
+      margin-top: .5rem;
+      font-size: 1rem;
+    }
+  }
+
+  .pokemonType {
+    text-align: center;
+
+    h2 {
+      margin-bottom: .5rem;
+    }
+
+    span {
+      display: inline-block;
+      padding: .6rem 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      text-transform: uppercase;
+      font-size: .8rem;
+      color: #fff;
+      margin: 0 .25rem;
+      letter-spacing: 1px;
+    }
+
+    .typenormal {
+      background-color: #aa9;
+    }
+    
+    .typefire {
+      background-color: #f42;
+    }
+    
+    .typewater {
+      background-color: #39f;
+    }
+    
+    .typeeletric {
+      background-color: #fc3;
+    }
+    
+    .typegrass {
+      background-color: #7c5;
+    }
+    
+    .typeice {
+      background-color: #6cf;
+    }
+    
+    .typefighting {
+      background-color: #b54;
+    }
+    
+    .typepoison {
+      background-color: #a59;
+    }
+    
+    .typeground {
+      background-color: #db5;
+    }
+    
+    .typeflying {
+      background-color: #89f;
+    }
+    
+    .typepsychic {
+      background-color: #f59;
+    }
+    
+    .typebug {
+      background-color: #ab2;
+    }
+    
+    .typerock {
+      background-color: #ba6;
+    }
+    
+    .typeghost {
+      background-color: #66b;
+    }
+    
+    .typedragon {
+      background-color: #76e;
+    }
+    
+    .typedark {
+      background-color: #754;
+    }
+    
+    .typesteel {
+      background-color: #aab;
+    }
+    
+    .typefairy {
+      background-color: #e9e;
+    }    
+  }
+
+  .pokemonPhysical {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+    div {
+      text-align: center;
+
+      &:first-of-type {
+        border-right: 1px solid #ccc;
+        padding-right: 1rem;
+      }
+
+      &:last-of-type {
+        padding-left: 1rem;
+      }
+    }
+  }
+}
